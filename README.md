@@ -5,3 +5,5 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=TlesovIvan_java-project-61&metric=bugs)](https://sonarcloud.io/summary/new_code?id=TlesovIvan_java-project-61)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=TlesovIvan_java-project-61&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=TlesovIvan_java-project-61)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=TlesovIvan_java-project-61&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=TlesovIvan_java-project-61)
+https://asciinema.org/a/BNnH377R3qdTNHY5QiqVeVeKZ
+
