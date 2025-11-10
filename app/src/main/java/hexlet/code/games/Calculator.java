@@ -31,7 +31,7 @@ public class Calculator {
                 qas[0] = firstNumber + " - " + secondNumber;
                 qas[1] = String.valueOf(firstNumber - secondNumber);
                 break;
-            case 3:
+            case COUNTSIGN:
                 qas[0] = firstNumber + " * " + secondNumber;
                 qas[1] = String.valueOf(firstNumber * secondNumber);
                 break;
