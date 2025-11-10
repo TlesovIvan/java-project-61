@@ -19,7 +19,7 @@ public class GCD {
 
     public static int evklidRespect(int firstNumber, int secondNumber) {
         while (secondNumber > 0) {
-            int a = firstNumber % secondNumber ;
+            int a = firstNumber % secondNumber;
             firstNumber = secondNumber;
             secondNumber = a;
         }
