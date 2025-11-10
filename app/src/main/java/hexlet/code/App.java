@@ -5,6 +5,12 @@ import hexlet.code.games.*;
 import java.util.Scanner;
 
 public class App {
+    private final static int CLI = 1;
+    private final static int EVEN = 2;
+    private final static int CALCULATOR = 3;
+    private final static int CGD = 4;
+    private final static int PROGRESSION = 5;
+    private final static int PRIME = 6;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter the game number and press Enter.");
@@ -18,26 +24,26 @@ public class App {
         System.out.print("Your choice: ");
         int userChoice = scanner.nextInt();
         switch (userChoice) {
-            case 1:
+            case CLI:
                 Cli.startGame();
                 break;
-            case 2:
+            case EVEN:
                 Cli.startGame();
                 Engine.startGame(Even.generateQA(), "Answer 'yes' if the number is even, otherwise answer 'no'.");
                 break;
-            case 3:
+            case CALCULATOR:
                 Cli.startGame();
                 Engine.startGame(Calculator.generateQA(), "What is the result of the expression?");
                 break;
-            case 4:
+            case CGD:
                 Cli.startGame();
                 Engine.startGame(GCD.generateQA(), "Find the greatest common divisor of given numbers.");
                 break;
-            case 5:
+            case PROGRESSION:
                 Cli.startGame();
                 Engine.startGame(Progression.generateQA(), "What number is missing in the progression?");
                 break;
-            case 6:
+            case PRIME:
                 Cli.startGame();
                 Engine.startGame(Prime.generateQA(), "Answer 'yes' if given number is prime. Otherwise answer 'no'.");
                 break;
