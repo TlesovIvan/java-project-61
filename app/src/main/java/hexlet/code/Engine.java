@@ -3,6 +3,9 @@ package hexlet.code;
 import java.util.Scanner;
 
 public class Engine {
+    public static final int MAXRANDOMNUMBER = 100;
+    static final int MAXCOUNTER = 3;
+    public static final int MAXROUNDCOUNTER = 3;
     public static void startGame(String[][] questionAnswer, String descriptionGame) {
         Scanner scanner = new Scanner(System.in);
         int counter = 0;
@@ -16,12 +19,12 @@ public class Engine {
                 counter++;
             } else {
                 System.out.println("'" + userAnswer + "' is wrong answer ;(. Correct answer was '" + questionAnswer[i][1] + "'.");
-                System.out.println("Let's try again, " + Cli.userName + "!");
+                System.out.println("Let's try again, " + Cli.getName() + "!");
                 break;
             }
         }
-        if (counter == 3) {
-            System.out.println("Congratulations, " + Cli.userName + "!");
+        if (counter == MAXCOUNTER) {
+            System.out.println("Congratulations, " + Cli.getName() + "!");
         }
     }
 }
