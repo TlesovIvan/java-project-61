@@ -26,7 +26,7 @@ public class Prime {
         if (number % 2 == 0) {
             return "no";
         }
-        for (int i = SECONDUSUALNUMBER; i < Math.floor(Math.sqrt(number)); i += 2) {
+        for (int i = SECONDUSUALNUMBER; i <= Math.floor(Math.sqrt(number)); i += 2) {
             if (number % i == 0) {
                 return "no";
             }
