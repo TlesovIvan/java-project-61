@@ -23,7 +23,7 @@ public class Progression {
         Random random = new Random();
         String[] qas = new String[2];
         int startElement = random.nextInt(MAXSTART);
-        int step = random.nextInt(MAXSTEP);
+        int step = random.nextInt(MAXSTEP) + 2;
         int length = random.nextInt(MINPROGRESSIONLENGTH) + MINPROGRESSIONLENGTH;
         int invisibleElement = random.nextInt(length);
         StringJoiner progression = new StringJoiner(" ");
