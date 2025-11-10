@@ -2,9 +2,12 @@ package hexlet.code;
 import java.util.Scanner;
 
 public class Cli {
+    public static String userName;
     public static void startGame() {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Welcome to the Brain Games!");
         System.out.print("May I have your name? ");
-        System.out.println("Hello, " + sc.nextLine() + "!");
+        userName = sc.nextLine();
+        System.out.println("Hello, " + userName + "!");
     }
 }
